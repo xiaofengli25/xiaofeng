@@ -28,6 +28,9 @@ main:
     
   - title: "iTT Lab"
     url: "/itt-lab/"
+
+    - title: "Research"
+      url: "/research/"
   
   # - title: "CV"
   #   url: /cv-json/
