@@ -24,3 +24,9 @@ My current work spans the following areas:
 - Traffic estimation
 - Micromobilities
 - Traffic signal control
+
+Research Assistant Opportunities
+======
+Are you interested in working on transportation and using real-world data for hands-on training? If you are a Ph.D. applicant, please refer to the official application process [here] (https://shidler.hawaii.edu/phd/apply). Thedeadline is Jan 31st each year. If you are an undergraduate, feel free to email me at xiaofeng.li@hawaii.edu.
+
+My research group collaborates to address real-world transportation and mobility challenges, applying innovative approaches to improve city mobility, safety, and sustainability.
