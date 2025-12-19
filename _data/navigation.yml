@@ -8,20 +8,24 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Research"
+    url: "/research/"
+  
+  - title: "iTT Lab"
+    url: "/itt-lab/"
+    
   - title: "Publications"
     url: /publications/ 
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Teaching"
+    url: /teaching/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "News"
+    url: /News/
     
-  - title: "iTT Lab"
-    url: "/itt-lab/"
 
-  - title: "Research"
-    url: "/research/"
+
+
   
   # - title: "CV"
   #   url: /cv-json/
