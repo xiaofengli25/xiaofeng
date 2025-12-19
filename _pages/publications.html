@@ -5,32 +5,63 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
-{% include base_path %}
+<h2>Journal Papers</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol>
+  <li><strong>Xiaofeng Li</strong>, Hyunsoo Noh, Adrian Cottam, and Qinzheng Wang* (2026). Leveraging connected-vehicle data to identify and analyze park service areas. Cities 170: 106665.</li>
+  <li>Xiaoling Luo, Wenbo Fan, Yongxiang Zhang, Andrea D’Ariano, Tommaso Bosi, Yuan Liu, Wei Wu, and <strong>Xiaofeng Li</strong> (2026). A continuum approximation approach for designing corridor-based heterogeneous transit service using modular autonomous vehicles. Transportation Research Part E: Logistics and Transportation Review 205: 104512.</li>
+  <li><strong>Xiaofeng Li</strong>*, Peipei Xu, Yao-Jan Wu, Hyunsoo Noh, and Ryan James Hatch (2025). Quality Assurance for Network-level Traffic Signal Performance Measurement Derived from Connected-Vehicle Data. Accepted by Journal of Intelligent Transportation Systems.</li>
+  <li>Zirui Huang, <strong>Xiaofeng Li</strong>*, Yi-Chang Chiu, and Yao-Jan Wu (2025). Incident Duration Sequential Predictions Using Reinforcement Learning for Advanced Traveler Information System Applications. Accepted by Transportation Research Record.</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>*, and Yao-Jan Wu (2025). VEMLAN: Imputing Missing Data for Failed Freeway Traffic Sensors. Journal of Intelligent Transportation Systems. 1-15</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>*, and Yao-Jan Wu (2024). Machine-Learning Approach for Estimating Passenger Car Equivalency Factors using Crowdsourced Data. Transportmetrica A: Transport Science, 2377600.</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>*, Xiaobo Ma, and Yao-Jan Wu (2024). Large-scale Freeway Traffic Volume Estimation using Crowdsourced Speed Data: A Case Study in Arizona. Journal of Transportation Engineering, Part A: Systems. 150(7), 04024030.</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>*, Mohammad Razaur Rahman Shaon, and Yao-Jan Wu (2024). Investigating the Impacts of E-Scooters on a Bike-sharing System in Tucson, Arizona with a No Ride Zone. International Journal on Sustainable Transportation. 18(3), 250-263.</li>
+  <li>Xi Zhang, <strong>Xiaofeng Li</strong>*, and Yao-Jan Wu (2023). Safety Performance Evaluation of Flashing Yellow Arrow: Time-of-Day vs 24-hour Operations. Transportation Research Record: Journal of the Transportation Research Board, 2677(7), 420-433.</li>
+  <li><strong>Xiaofeng Li</strong>*, Adrian Cottam, and Yao-Jan Wu (2023). Transit Arrival Time Prediction using Interaction Networks. IEEE Transactions on Intelligent Transportation Systems, 24(4), 3833-3844.</li>
+  <li>Liang Xia, <strong>Xiaofeng Li</strong>, Mohammad Razaur Rahman Shaon, Yao-Jan Wu, and Xinguo Jiang* (2023). Arterial Signal Offset Optimization Using Crowdsourced Speed Data. Transportation Research Record: Journal of the Transportation Research Board, vol. 2677, no. 2, pp. 1633-1642.</li>
+  <li>Xiaoling Luo, <strong>Xiaofeng Li</strong>, Mohammad Razaur Rahman Shaon, and Yongxiang Zhang (2023). Multi-Lane-Merging Strategy for Connected Automated Vehicles at Freeway Ramps. Transportmetrica B: Transport Dynamics. 11(1), 127-145.</li>
+  <li>Peipei Xu, <strong>Xiaofeng Li</strong>*, Hyunsoo Noh, and Yao-Jan Wu (2023). Network-Level Turning Movement Counts Estimation using Traffic Controller Event-Based Data. Journal of Intelligent Transportation Systems: Technology, Planning, and Operations. 27(5), 677-691.</li>
+  <li>Weibin Zhang, Chen Yan, <strong>Xiaofeng Li</strong>, Liangliang Fang, Yao-Jan Wu, and Jun Li (2022). Distributed Signal Control of Arterial Corridors Using Multi-Agent Deep Reinforcement Learning. IEEE Transactions on Intelligent Transportation Systems. 24(1), 178-190.</li>
+  <li>Hainan Huang, Rongjie Zhang, Chengguang Xie, and <strong>Xiaofeng Li</strong>* (2022). Identifying Subway Passenger Flow under Large-Scale Events Using Symbolic Aggregate Approximation Algorithm. Transportation Research Record: Journal of the Transportation Research Board, Volume 2676, Issue 2, pp.800-810.</li>
+  <li>Chengguang Xie, <strong>Xiaofeng Li</strong>, Bingfa Chen, Feng Lin, Yushun Lin, and Hainan Huang* (2021). Subway Sudden Passenger Flow Prediction Method Based on Two-Factors: Case Study of the Dongsishitiao Station in Beijing. Journal of Advanced Transportation, vol.2021, pp.5577179.</li>
+  <li>Mohammad Razaur Rahman Shaon, <strong>Xiaofeng Li</strong>*, Yao-Jan Wu, and Simon Ramos (2021). Quantitative Evaluation of Advanced Traffic Management Systems using Multi-Criteria Decision Analysis. Transportation Research Record: Journal of the Transportation Research Board, Volume 2675, Issue 12, pp.610-621.</li>
+  <li><strong>Xiaofeng Li</strong>, Peipei Xu, and Yao-Jan Wu* (2021). Estimating Pedestrian Crossing Volume at Signalized Intersections using Bayesian Additive Regression Trees. Journal of Intelligent Transportation Systems: Technology, Planning, and Operations. Volume 26, Issue 5, pp.557-571.</li>
+  <li><strong>Xiaofeng Li</strong>*, Yao-Jan Wu, and Alireza Khani (2021). Investigating a Small-Sized Bike-Sharing System’s Impact on Transit Usage: A Synthetic Control Analysis in Tucson, Arizona. Public Transport, Volume 14, Issue 2, pp.441-458.</li>
+  <li><strong>Xiaofeng Li</strong> and Yao-Jan Wu* (2021). Real-time estimation of pedestrian volume at button-activated midblock crosswalks using traffic controller event-based data. Transportation Research Part C: Emerging Technologies. Volume 122: 102876.</li>
+  <li><strong>Xiaofeng Li</strong>, Adrian Cottam, Yao-Jan Wu*, and Alireza Khani (2020). Can a bikesharing system reduce fuel consumption? Case study in Tucson, Arizona. Transportation Research Part D: Transport and Environment. Volume 89: 102604.</li>
+  <li><strong>Xiaofeng Li</strong>, Yao-Jan Wu*, and Yi-Chang Chiu (2019). Volume Estimation using Traffic Signal Event-Based Data from Video-Based Sensors. Transportation Research Record: Journal of the Transportation Research Board. Volume 2673, Issue 6, p.22-32.</li>
+  <li><strong>Xiaofeng Li</strong>, Alexander Weber, Adrian Cottam, and Yao-Jan Wu* (2019). Impacts of changing from permissive/protected left-turn to protected-only phasing: case study in the City of Tucson, Arizona. Transportation Research Record: Journal of the Transportation Research Board. Volume 2673, Issue 4, p.616-626.</li>
+</ol>
+
+<hr>
+
+<h2>Conference Papers</h2>
+
+<ol>
+  <li><strong>Xiaofeng Li</strong> and Nicole Cernohorsky (2026), Investigating Visitors’ Intra-Destination Travel Mode Choice: A Case Study of Oʻahu, Hawaiʻi, will present at the 105th Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Hyunsoo Noh, Adrian Cottam, and Qinzheng Wang (2025). Leveraging Connected-Vehicle Data to Identify Park Service Areas for Driving-Only Users. Presented at the 104th Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Peipei Xu, Yao-Jan Wu, Hyunsoo Noh, and Ryan James Hatch (2024). Quality Assurance for Network-level Traffic Signal Performance Measurement Derived from Connected-Vehicle Data. Presented at the 103rd Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Peipei Xu, Yao-Jan Wu, Hyunsoo Noh, and Ryan James Hatch (2024). Leveraging Existing Traffic Detections for Network-level Control Delay and Arrival-on-Green Estimation at Signalized Intersections. Presented at the 103rd Annual Meeting of the Transportation Research Board</li>
+  <li>Zhang Xi, <strong>Xiaofeng Li</strong>, and Yao-Jan Wu (2024). Decision-Making Framework for Feasibility in Deploying Emerging Adaptive Traffic Control Systems. Presented at the 103rd Annual Meeting of the Transportation Research Board</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>, Cynthia Eduwiges Navarro, and Yao-Jan Wu (2024). Investigating Interactions between Sidewalk Autonomous Delivery Robots and Vehicular Traffic at Stop-Controlled Crosswalks. Presented at the 103rd Annual Meeting of the Transportation Research Board</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>, and Yao-Jan Wu (2024). Machine-Learning Approach for Estimating Passenger Car Equivalency Factors using Crowdsourced Data. Presented at the 103rd Annual Meeting of the Transportation Research Board</li>
+  <li>Zirui Huang, <strong>Xiaofeng Li</strong>, Yi-Chang Chiu, and Yao-Jan Wu (2023). Evaluating Traffic Incident Management System Performance in Post-Incident Response: Method to Homogenize Incident Duration and Spatial Autocorrelation Analysis. Presented at the 102nd Annual Meeting of the Transportation Research Board</li>
+  <li>Xi Zhang, <strong>Xiaofeng Li</strong>, and Yao-Jan Wu (2023). Safety Performance Evaluation of Flashing Yellow Arrow: Time-of-Day vs 24-hour Operations. Presented at the 102nd Annual Meeting of the Transportation Research Board</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>, and Yao-Jan Wu (2023). VEMLAN: Imputing Missing Data for Failed Freeway Traffic Sensors. Presented at the 102nd Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Adrian Cottam, and Yao-Jan Wu (2022). Transit Arrival Time Prediction by Fusing GTFS and Crowdsourced Data. Presented at the 101st Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong> and Yao-Jan Wu (2021). Estimating Real-Time Pedestrian Volume at Button-Activated Midblock Crosswalks. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Peipei Xu, and Yao-Jan Wu (2021). Estimating Pedestrian Crossing Volume at Signalized Intersections. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Liang Xia, <strong>Xiaofeng Li</strong>, Mohammad Razaur Rahman Shaon, Yao-Jan Wu, and Xinguo Jiang (2021). Arterial Signal Offset Optimization Using Crowdsourced Speed Data. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Mohammad Razaur Rahman Shaon, <strong>Xiaofeng Li</strong>, Yao-Jan Wu, and Simon Ramos (2021). Quantitative Evaluation of Advanced Traffic Management Systems using Multi-Criteria Decision Analysis. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Peipei Xu, <strong>Xiaofeng Li</strong>, Hyunsoo Noh, and Yao-Jan Wu (2021). Estimating Network-Level Turning Movement Counts using Traffic Controller Event-Based Data. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Adrian Cottam, <strong>Xiaofeng Li</strong>, Mohammad Razaur Rahman Shaon, and Yao-Jan Wu (2021). Investigating the Impacts of E-Scooters on Bike-sharing System Ridership: A Data-Driven Study in Tucson, Arizona. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Adrian Cottam, Xiaobo Ma, <strong>Xiaofeng Li</strong>, and Yao-Jan Wu (2021). Large-scale Freeway Traffic Volume Estimation using Crowdsourced Speed Data: A Case Study in Arizona. Presented at the 100th Annual Meeting of the Transportation Research Board</li>
+  <li>Yang Liang, Xiaoqing Zeng, <strong>Xiaofeng Li</strong>, Adrian Cottam, and Yao-Jan Wu (2020). Quantifying Mobility Impact of Pedestrian Hybrid Beacon Signal on Arterial Traffic: Case Study in Tucson, Arizona. Presented at the 99th Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Yao-Jan Wu, and Yi-Chang Chiu (2019). Volume Estimation using Traffic Signal Event-Based Data from Video-Based Sensors. Presented at the 98th Annual Meeting of the Transportation Research Board</li>
+  <li><strong>Xiaofeng Li</strong>, Alexander Weber, Adrian Cottam, and Yao-Jan Wu (2019). Impacts of changing from permissive/protected left-turn to protected-only phasing: case study in the City of Tucson, Arizona. Presented at the 98th Annual Meeting of the Transportation Research Board</li>
+  <li>Melrose Pan, <strong>Xiaofeng Li</strong>, Robert Kluger, and Yao-Jan Wu (2019). Red-Light Violation Identification Using GPS Trajectories. Presented at the 98th Annual Meeting of the Transportation Research Board</li>
+</ol>
 
 
 
