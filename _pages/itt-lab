@@ -1,1 +1,134 @@
+---
+layout: archive
+title: "Island Travel and Transportation (iTT) Lab"
+permalink: /itt-lab/
+author_profile: true
+---
 
+
+<style>
+.slideshow-container {
+  max-width: 800px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+</style>
+
+<div class="slideshow-container">
+  <div class="slide">
+    <img src="{{ site.baseurl }}/images/Slide1.png">
+  </div>
+
+  <div class="slide">
+    <img src="{{ site.baseurl }}/images/Slide2.jpg">
+  </div>
+
+  <div class="slide">
+    <img src="{{ site.baseurl }}/images/Slide3.jpeg">
+  </div>
+
+    <div class="slide">
+    <img src="{{ site.baseurl }}/images/Poster.jpg">
+  </div>
+
+    <div class="slide">
+    <img src="{{ site.baseurl }}/images/Slide5.jpg" >
+  </div>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000);
+}
+</script>
+
+
+<style>
+.lab-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.member img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.member-status {
+  font-style: italic;
+  margin: 4px 0;
+}
+
+.member-email {
+  font-size: 0.9em;
+}
+</style>
+
+<h2>Lab Members</h2>
+
+<div class="lab-members">
+
+  <div class="member">
+    <img src="{{ site.baseurl }}/images/members/member1.jpg" alt="Member 1">
+    <div class="member-name">Yue Zhu</div>
+    <div class="member-status">Ph.D. Student</div>
+    <div class="member-email">
+      <a href="mailto:alicec@hawaii.edu">iyuezhu77@hawaii.edu</a>
+    </div>
+  </div>
+
+  <div class="member">
+    <img src="{{ site.baseurl }}/images/members/Motoki.jpg" alt="Member 2">
+    <div class="member-name">Motoki Yamamori Saito</div>
+    <div class="member-status">Master’s Student</div>
+    <div class="member-email">
+      <a href="mailto:bkim@hawaii.edu">motokis@hawaii.edu</a>
+    </div>
+  </div>
+
+  <div class="member">
+    <img src="{{ site.baseurl }}/images/members/Marvin.JPG" alt="Member 3">
+    <div class="member-name">Marvin Jazz Arevalo</div>
+    <div class="member-status">Master’s Student</div>
+    <div class="member-email">
+      <a href="mailto:sophial@hawaii.edu">marvinja@hawaii.edu</a>
+    </div>
+  </div>
+
+</div>
