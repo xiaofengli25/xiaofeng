@@ -27,6 +27,20 @@ My current work spans the following areas:
 
 Research Assistant Opportunities
 ======
-Are you interested in working on transportation and using real-world data for hands-on training? If you are a Ph.D. applicant, please refer to the official application process [here] (https://shidler.hawaii.edu/phd/apply). Thedeadline is Jan 31st each year. If you are an undergraduate, feel free to email me at xiaofeng.li@hawaii.edu.
+Are you interested in working on transportation and using real-world data for hands-on training? If you are a Ph.D. applicant, please refer to the official application process [here](https://shidler.hawaii.edu/phd/apply). Thedeadline is Jan 31st each year. If you are an undergraduate, feel free to email me at xiaofeng.li@hawaii.edu.
 
 My research group collaborates to address real-world transportation and mobility challenges, applying innovative approaches to improve city mobility, safety, and sustainability.
+
+<!-- First row: two images side by side -->
+<div style="text-align:center; margin-bottom:15px;">
+  <img src="{{ site.baseurl }}/images/Logos/UHM.png" 
+       style="height:100px; max-height:50px; margin-right:15px;">
+  <img src="{{ site.baseurl }}/images/Logos/TIM School.png" 
+       style="height:100px; max-height:50px;">
+</div>
+
+<!-- Second row: single image -->
+<div style="text-align:center;">
+  <img src="{{ site.baseurl }}/images/Logos/iTT.png" 
+       style="height:100px; max-height:50px;">
+</div>
