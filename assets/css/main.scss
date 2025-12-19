@@ -41,3 +41,10 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Override author avatar to rectangle */
+.author__avatar img {
+  border-radius: 0 !important;   /* sharp rectangle */
+  width: 180px;                 /* optional */
+  height: auto;
+}
