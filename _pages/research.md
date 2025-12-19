@@ -5,21 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 
-We have collected extensive transportation and mobility data in Hawaiʻi with the support of local agencies. The datasets cover most ground transportation modes, including:
+## Research Demo
+We've collected extensive data from Hawaii with the support of local agencies, covering most ground transportation modes, including private vehicles, public buses, rail, bikesharing, and hiking.
 
-- Private vehicles  
-- Public buses  
-- Rail transit  
-- Bikesharing systems  
-- Hiking and recreational trails  
-
-These rich, multi-source datasets enable us to study travel behavior, system performance, safety, and sustainability across both daily commuting and visitor travel.
+The following video showcases some example data.
 
 ---
-
-## Example Data Visualization
-
-The following video showcases selected examples of our data and analysis results, illustrating how different transportation modes and mobility patterns can be captured and analyzed.
 
 <div style="text-align:center; margin-top:20px;">
   <iframe
