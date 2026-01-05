@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Xiaofeng_v2.jpeg"
+  avatar           : "Xiaofeng_v2.jpg"
   name             : "Xiaofeng Li"
   pronouns         : # example  
   bio              : "Assistant Professor of Transportation Management"
