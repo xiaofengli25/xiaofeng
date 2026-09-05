@@ -10,9 +10,10 @@ Research Interests
 I enjoy working with data because I believe it has the ability to "speak" and provide answers to critical transportation questions. My goal is to leverage data to address transportation challenges. As a result, all of my research focuses on transportation and mobility data, including the collection, integration, and analysis of big data. To manage and make sense of this large-scale data, machine learning and data mining are essential, which is another key area of my research.
 
 My current work spans the following areas:
-- Segmented travel monitoring (visitors and commuters)
+- Travel and traffic monitoring
 - Public transportation operation and management
 - Traffic estimation
+- ITS
 - Micromobilities
 - Traffic signal control
 
