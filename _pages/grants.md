@@ -6,7 +6,7 @@ author_profile: true
 
 ## Current / Recent Research Projects
 
-1. **Leveraging Existing Traffic Devices and Location-Based Service Data to Obtain Network-Level Pedestrian Data**, Exploratory Advanced Research (EAR) Program, Federal Highway Administration (FHWA), U.S. Department of Transportation (USDOT). Aug. 2026 – Aug. 2028. **$250,000**. (**PI**[\[1\]](#_ftn1))
+1. **Leveraging Existing Traffic Devices and Location-Based Service Data to Obtain Network-Level Pedestrian Data**, Federal Highway Administration (FHWA), U.S. Department of Transportation (USDOT). Aug. 2026 – Aug. 2028. **$250,000**. (**PI**[\[1\]](#_ftn1))
 
 2. **Resilient Traffic Monitoring During Storm-Induced Sensor Failures in Hawaiʻi: A Pilot Study**, Quick Response Research Award, Natural Hazards Center at the University of Colorado Boulder, funded by the National Science Foundation. May – Dec. 2026. **$5,000**. (**PI**[\[2\]](#_ftn2))
 
